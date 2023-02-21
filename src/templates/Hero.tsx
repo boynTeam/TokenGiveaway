@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
+import { Logo } from './Logo';
 import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-gray-100">
@@ -18,7 +18,7 @@ const Hero = () => (
         </li>
         <li>
           <Link href="/">
-            <a>Sign in</a>
+            <a>Open DAPP</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,15 +28,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'The web3 giveaway dapp for\n'}
+            <span className="text-primary-500">BUIDLER</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="The easiest way to giveaway lucky draw and red packet."
         button={
           <Link href="https://creativedesignsguru.com/category/nextjs/">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>Open Your DAPP</Button>
             </a>
           </Link>
         }
